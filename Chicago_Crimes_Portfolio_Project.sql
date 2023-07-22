@@ -1,7 +1,7 @@
 -- Problem 1: Find the total number of crimes recorded in the CRIME table.
 
-SELECT DISTINCT(COUNT(CASE_NUMBER)) 
-FROM ChicagoCrimeData (533 cases) 
+SELECT DISTINCT(COUNT(CASE_NUMBER)) AS NUMBER_OF_CRIMES
+FROM ChicagoCrimeData 
 
 -- Problem 2: List community areas with per capita income less than 11000.
 
